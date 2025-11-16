@@ -1,0 +1,25 @@
+{
+  "name": "emailauthfunction",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest",
+    "build": "esbuild src/index.ts --bundle --platform=node --outdir=dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/aws-lambda": "^8.10.158",
+    "@types/jest": "^30.0.0",
+    "@types/node": "^24.10.1",
+    "esbuild": "^0.27.0",
+    "jest": "^30.2.0",
+    "ts-jest": "^29.4.5",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "axios": "^1.13.2"
+  }
+}
